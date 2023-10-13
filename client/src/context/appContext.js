@@ -63,7 +63,7 @@ const AppProvider = ({ children }) => {
   };
 
   const authFetch = axios.create({
-    baseURL: "http://localhost:5000/",
+    baseURL: "https://server-w1gs.onrender.com/",
   });
 
   authFetch.interceptors.request.use(

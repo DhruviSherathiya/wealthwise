@@ -2,7 +2,7 @@ const fs = require("fs");
 
 let value = 450;
 
-ind = 20;
+let ind = 20;
 let allTimemin = 100000;
 let allTimemax = -1;
 let arr = [value];
@@ -66,7 +66,7 @@ let data = {
 };
 value = arr[28799];
 const jsonString = JSON.stringify(data);
-fs.writeFile(`./data/karan.json`, jsonString, (err) => {
+fs.writeFile(`./karan.json`, jsonString, (err) => {
   if (err) {
     console.log("Error writing file", err);
   } else {
