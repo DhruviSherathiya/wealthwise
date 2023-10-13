@@ -46,6 +46,7 @@ We have used below tools and technologies while building Wealthwise.
 4. You are ready to run your project.
 
 ### Deployed Project Link : http://34.67.156.97:3000/
+http://Wealthhwise.netlify.app
 
 ## Created By:-
 1) [Prince Dhamecha](https://github.com/PRINCE-DHAMECHA)
